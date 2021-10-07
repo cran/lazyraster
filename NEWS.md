@@ -1,3 +1,9 @@
+# lazyraster 0.5.1
+
+Patch fix for release of vapour 0.8.5. Previously, `vapour_read_raster()` always returned numeric values, but now may
+be numeric, integer, or raw. 
+
+* Removed unused LazyData property. 
 
 # lazyraster 0.5.0
 
